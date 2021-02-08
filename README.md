@@ -2,12 +2,12 @@
 ----------------------------------------------------------------------------------
 
 ## Overview
-Perform retrospective analysis on historical data, analytical verification of current automotive specifications and study design of future auto testing.  
+The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. Two sets of Amazon video game reviews were analyzed in this study; those written by the paid Amazon Vine program and those written outside of the Vine program.   
 
 ## Data Sources and Coding File
-Data for analysis was provided in two csv files ([MPG](MechaCar_mpg.csv) and [Suspension](Suspension_Coil.csv)).  
+Data for analysis was obtained from an [Amazon AWS S3 data repostitory](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz).
 
-https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz
+
 
 ## Results
 
@@ -25,14 +25,5 @@ Although, the analysis with 5 predictors does model fuel economy fairly well (r-
 
 ![Fig_2](MechaCar_Statistical_Analysis/Screenshots/Suspension_central_tendancy.PNG)
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 psi. The above analysis demonstrates that, with a variance of 62.29 psi, the aggregate falls within design specification.  
 
-
-![Fig_3](MechaCar_Statistical_Analysis/Screenshots/Suspension_by_Lot.PNG)
-
-Both Lot 1 and 2 meet design specification.  However, Lot 3 is well outside suspension coil specification with a variance of 170.29 psi (> 100 psi).  
-
-## T-Tests on Suspension Coils
-
-![Fig_4](MechaCar_Statistical_Analysis/Screenshots/ttest_PSI_allLots.PNG)
 
