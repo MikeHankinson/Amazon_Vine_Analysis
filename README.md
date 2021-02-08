@@ -7,9 +7,11 @@ Perform retrospective analysis on historical data, analytical verification of cu
 ## Data Sources and Coding File
 Data for analysis was provided in two csv files ([MPG](MechaCar_mpg.csv) and [Suspension](Suspension_Coil.csv)).  
 
+https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz
+
 ## Results
 
-![Fig_1](MechaCar_Statistical_Analysis/Screenshots/Linear_Regression_MPG.PNG)
+![Fig_1](Vine_Summary_DF.PNG)
 
 Performed a multiple linear regression to determine the effect of the following 5 measured variables on fuel efficiency (measured in mpg): vehicle length, vehicle weight, spoiler angle, ground clearance and drive train (AWD or not).  
 
